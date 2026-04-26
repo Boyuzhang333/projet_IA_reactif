@@ -2,8 +2,9 @@
 
 ## � Ressources
 
-- **Vidéo démo** : [YouTube - Démonstration du projet](https://youtu.be/ihh71K-QGRg)
-- **Code source** : [GitHub - Boyuzhang333/projet_IA_reactif](https://github.com/Boyuzhang333/projet_IA_reactif)
+- **🎮 Jouer en ligne** : [https://boyuzhang333.github.io/projet_IA_reactif/](https://boyuzhang333.github.io/projet_IA_reactif/)
+- **📹 Vidéo démo** : [YouTube - Démonstration du projet](https://youtu.be/ihh71K-QGRg)
+- **💻 Code source** : [GitHub - Boyuzhang333/projet_IA_reactif](https://github.com/Boyuzhang333/projet_IA_reactif)
 
 ---
 
