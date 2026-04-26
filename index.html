@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>AI Racing League</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.1.0/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+  </head>
+  <body>
+    <div id="ui-panel"></div>
+    <div id="canvas-container"></div>
+    <video id="gesture-video" autoplay playsinline muted></video>
+
+    <!-- Originals (do not touch) -->
+    <script src="src/nn.js"></script>
+    <script src="src/ga.js"></script>
+    <script src="src/ray.js"></script>
+    <script src="src/boundary.js"></script>
+    <script src="src/vehicle.js"></script>
+    <script src="src/sketch.js"></script>
+
+    <!-- Extensions -->
+    <script src="src/extended_nn.js"></script>
+    <script src="src/racing_vehicle.js"></script>
+    <script src="src/obstacle.js"></script>
+    <script src="src/storage.js"></script>
+    <script src="src/stop_condition.js"></script>
+    <script src="src/editor.js"></script>
+    <script src="src/race_mode.js"></script>
+    <script src="src/ui.js"></script>
+    <script src="src/gesture.js"></script>
+
+    <!-- Loaded last; overrides setup() and draw() -->
+    <script src="src/main.js"></script>
+  </body>
+</html>
