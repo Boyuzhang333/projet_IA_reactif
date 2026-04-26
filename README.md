@@ -1,6 +1,13 @@
 # 🏎️ Ligue de Course IA — Simulateur d'Apprentissage Neural
 
-## 📋 Vue d'ensemble
+## � Ressources
+
+- **Vidéo démo** : [YouTube - Démonstration du projet](https://youtu.be/ihh71K-QGRg)
+- **Code source** : [GitHub - Boyuzhang333/projet_IA_reactif](https://github.com/Boyuzhang333/projet_IA_reactif)
+
+---
+
+## �📋 Vue d'ensemble
 
 **AI Racing League** est un simulateur de course basé navigateur où des véhicules autonomes apprennent à conduire des circuits en utilisant des **réseaux de neurones évolutifs** via un **algorithme génétique**. Construite sur p5.js et TensorFlow.js.
 
